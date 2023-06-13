@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-google": "^0.14.0",
+    "webpack": "^5.86.0"
+  },
+  "dependencies": {
+    "cytoscape": "^3.25.0"
+  }
 }
