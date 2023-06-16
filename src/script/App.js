@@ -1,3 +1,5 @@
+import table from './table/init';
+
 /** app init class **/
 class App {
 	/** create app **/
@@ -8,7 +10,7 @@ class App {
 	/** init other modules **/
 	init() {
 		window.addEventListener('load', () => {
-
+			table();
 		});
 	}
 }

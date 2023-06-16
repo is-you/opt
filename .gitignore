@@ -1,6 +1,6 @@
 /build/
 /node_modules/
 /.idea/
-/devdoc.txt
 /.gitignore
+/devdoc.txt
 /package-lock.json

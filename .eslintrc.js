@@ -8,6 +8,7 @@ module.exports = {
   ],
   'parserOptions': {
     'ecmaVersion': 'latest',
+    'sourceType': 'module',
   },
   'rules': {
     'no-mixed-spaces-and-tabs': 0,

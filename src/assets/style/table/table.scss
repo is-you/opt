@@ -1,0 +1,26 @@
+.table{
+	height: 100vh;
+}
+.test{
+	background-image: url('../img/panel.png');
+}
+
+.context_menu{
+	position: absolute;
+	top : 0;
+	left : 0;
+}
+
+.device_list{
+	padding: 5px;
+	background-color: #0d1117;
+	box-sizing: border-box;
+	&__item{
+		line-height: 30px;
+		padding: 0 15px;
+		cursor: pointer;
+		&:hover{
+			background-color: #161b22;
+		}
+	}
+}
